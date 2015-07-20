@@ -1,0 +1,13 @@
+---
+gem: activemodel
+osvdb: 96396
+url: http://osvdb.org/show/osvdb/96396
+title: activemodel Gem for Ruby Confirmation Attribute Validator Bypass
+date: 2012-11-05
+description: |
+  activemodel Gem for Ruby contains a flaw that is due to the confirmation
+  validator failing to properly trigger if the _confirmation attribute is
+  set to nil. This may allow a context-dependent attacker to bypass the
+  validator.
+patched_versions:
+  - ">= "
